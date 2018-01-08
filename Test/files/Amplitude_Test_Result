@@ -1,0 +1,206 @@
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/Original$ ls
+8000_test.wav  build  Samplestream.wav
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/Original$ ./build 8000_test.wav | grep is
+Maximum value is : 1164.72
+Total number of frames is: 173
+Average value is : 6.73248
+Wav2Spectrum finish
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/Original$ 
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/Original$ 
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/Original$ cd ../human\ voice
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/human voice$ ls
+2023873236_02262015_065751.wav  9732420871_02192015_080209.wav  9732420871_02192015_080299.wav  9732420871_02192015_990204.wav  build
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/human voice$ ./build 2023873236_02262015_065751.wav | grep is
+Maximum value is : 1155.65
+Total number of frames is: 443
+Average value is : 2.60868
+Wav2Spectrum finish
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/human voice$ ./build 9732420871_02192015_080209.wav | grep is
+Maximum value is : 1145.65
+Total number of frames is: 458
+Average value is : 2.50141
+Wav2Spectrum finish
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/human voice$ ./build 9732420871_02192015_080299.wav | grep is
+Maximum value is : 1211.07
+Total number of frames is: 451
+Average value is : 2.6853
+Wav2Spectrum finish
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/human voice$ ./build 9732420871_02192015_990204.wav | grep is
+Maximum value is : 1166.17
+Total number of frames is: 467
+Average value is : 2.49715
+Wav2Spectrum finish
+
+
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/human voice not matching$ ./build 2154414628_02252015_101419.wav | grep is
+Maximum value is : 2909.78
+Total number of frames is: 458
+Average value is : 6.35324
+Wav2Spectrum finish
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/human voice not matching$ ./build 3014466926_02252015_085746.wav | grep is
+Maximum value is : 645.716
+Total number of frames is: 135
+Average value is : 4.78308
+Wav2Spectrum finish
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/human voice not matching$ ./build 3017354341_02192015_061559.wav | grep is
+Maximum value is : 1508.94
+Total number of frames is: 452
+Average value is : 3.33837
+Wav2Spectrum finish
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/human voice not matching$ ./build 9732420871_02192015_080999.wav | grep is
+Maximum value is : 2521.38
+Total number of frames is: 446
+Average value is : 5.65333
+Wav2Spectrum finish
+pinaki@pm
+
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/machine voice$ ls
+4102331264_02262015_071856.wav  7572460105_02242015_094318.wav  7578865893_02242015_094828.wav  build
+7176308827_02212015_082411.wav  7577283680_02242015_091209.wav  9732420871_02192015_080204.wav
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/machine voice$ ./build 4102331264_02262015_071856.wav | grep is
+Maximum value is : 770.122
+Total number of frames is: 439
+Average value is : 1.75426
+Wav2Spectrum finish
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/machine voice$ ./build 7572460105_02242015_094318.wav | grep is
+Maximum value is : 691.039
+Total number of frames is: 205
+Average value is : 3.37092
+Wav2Spectrum finish
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/machine voice$ ./build 7578865893_02242015_094828.wav | grep is
+Maximum value is : 649.105
+Total number of frames is: 133
+Average value is : 4.88049
+Wav2Spectrum finish
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/machine voice$ ./build 7176308827_02212015_082411.wav | grep is
+Maximum value is : 386.786
+Total number of frames is: 335
+Average value is : 1.15458
+Wav2Spectrum finish
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/machine voice$ ./build 7577283680_02242015_091209.wav | grep is
+Maximum value is : 627.283
+Total number of frames is: 133
+Average value is : 4.71641
+Wav2Spectrum finish
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/machine voice$ ./build 9732420871_02192015_080204.wav | grep is
+Maximum value is : 370.292
+Total number of frames is: 116
+Average value is : 3.19218
+Wav2Spectrum finish
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+***************************************************************************************************************************************
+***************************************************************************************************************************************
+
+human voice matching:
+
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/human voice$ ./build 2023873236_02262015_065751.wav | grep Maximum
+Maximum value is : 1155.65
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/human voice$ ./build 9732420871_02192015_080299.wav | grep Maximum
+Maximum value is : 1211.07
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/human voice$ ./build 9732420871_02192015_990204.wav | grep Maximum
+Maximum value is : 1166.17
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/human voice$ ./build 9732420871_02192015_0802 | grep Maximum
+9732420871_02192015_080209.wav  9732420871_02192015_080299.wav  
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/human voice$ ./build 9732420871_02192015_080209.wav | grep Maximum
+Maximum value is : 1145.65
+
+-------------------------------------------------------------------------
+
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/human voice not matching$ ls
+2154414628_02252015_101419.wav  3014466926_02252015_085746.wav  3017354341_02192015_061559.wav  9732420871_02192015_080999.wav  build
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/human voice not matching$ ./build 2154414628_02252015_101419.wav | grep Maximum
+Maximum value is : 2909.78
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/human voice not matching$ ./build 3014466926_02252015_085746.wav | grep Maximum
+Maximum value is : 645.716
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/human voice not matching$ ./build 3017354341_02192015_061559.wav | grep Maximum
+Maximum value is : 1508.94
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/human voice not matching$ ./build 9732420871_02192015_080999.wav | grep Maximum
+Maximum value is : 2521.38
+
+-----------------------------------------------------------------------------------
+
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/machine voice$ ls
+4102331264_02262015_071856.wav  7572460105_02242015_094318.wav  7578865893_02242015_094828.wav  build
+7176308827_02212015_082411.wav  7577283680_02242015_091209.wav  9732420871_02192015_080204.wav
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/machine voice$ ./build 4102331264_02262015_071856.wav | grep Maximum
+Maximum value is : 770.122
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/machine voice$ ./build 7572460105_02242015_094318.wav | grep Maximum
+Maximum value is : 691.039
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/machine voice$ ./build 7578865893_02242015_094828.wav | grep Maximum
+Maximum value is : 649.105
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/machine voice$ ./build 7176308827_02212015_082411.wav | grep Maximum
+Maximum value is : 386.786
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/machine voice$ ./build 7577283680_02242015_091209.wav | grep Maximum
+Maximum value is : 627.283
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/machine voice$ ./build 9732420871_02192015_080204.wav | grep Maximum
+Maximum value is : 370.292
+
+--------------------------------------
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/Original$ ./build 
+build             Samplestream.wav  
+pinaki@pmlap:~/Documents/Link to technical/CodeSample_AudioFingerPrinting/audio_recognition-master/bin/test/Original$ ./build Samplestream.wav  | grep Maximum
+Maximum value is : 449.522
+
+**********************************************************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
